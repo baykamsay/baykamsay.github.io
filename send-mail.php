@@ -1,9 +1,9 @@
 <?php
 
 	// site owner
-	$site_name = 'unRovr HTML5 Template';
-	$sender_domain = 'server@your-domain.com';
-	$to = 'jonhdoeeee@jonhdoe.com';
+	$site_name = 'Baykam Say';
+	$sender_domain = 'server@baykam.me';
+	$to = 'baykam.say@gmail.com';
 	
 	// contact form fields
 	$name = trim( $_POST['name'] );
