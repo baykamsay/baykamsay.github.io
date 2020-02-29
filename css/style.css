@@ -63,12 +63,22 @@ p {
     display: inline-block;
     text-decoration: none;
     border-bottom: none;
+    margin-left: 1rem;
+    padding: 1rem 0;
+}
+
+html:not([data-scroll='0']) .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 0.2rem .5rem -0.2rem gray;
+    border-radius: 3px;
 }
 
 .navbar-toggle {
     float: right;
     cursor: pointer;
     font-size: 2rem;
+    padding: 1rem;
+    margin-right: 1rem;
 }
 
 .active {
@@ -78,8 +88,6 @@ p {
 .active a {
     display: inline-block;
     background-color: #ffffff;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
 }
 
 @media screen and (min-width: 600px) {
@@ -141,7 +149,7 @@ p {
 }
 
 .section {
-    margin-bottom: 4rem;
+    padding-top: 8rem;
 }
 
 .float-left {
@@ -187,6 +195,7 @@ p {
 }
 
 footer {
+    margin-top: 8rem;
     border-top: 1px solid #bbbbbb;
     text-align: center;
     padding: 2rem;
