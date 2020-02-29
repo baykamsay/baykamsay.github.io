@@ -10,18 +10,16 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Crimson Pro', sans-serif;
+    font-family: 'Crimson Pro', serif;
     font-weight: 400;
 }
 
 h1 {
     font-size: 3.5rem;
-    font-weight: 500;
     color: #3d3d3d;
 }
 
 h2 {
-    font-weight: 400;
     font-size: 2rem;
     color: #3d3d3d;
 }
@@ -38,7 +36,7 @@ p {
 }
 
 .navbar a {
-    font-family: 'Crimson Pro', sans-serif;
+    font-family: 'Crimson Pro', serif;
     font-size: 2rem;
     color: #000000;
     text-decoration: none;
