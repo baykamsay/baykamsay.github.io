@@ -18,21 +18,21 @@
 <body>
     <header>
         <div class="wrapper">
-            <nav class="navbar"> <!-- learned from https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf -->
-                <a href="#" class="name" id="name">Baykam Say</a>
+            <nav class="navbar">
+                <a href="#main" class="name close-navbar" id="name">Baykam Say</a>
                 <span class="navbar-toggle" id="js-navbar-toggle">
                     <i class="fas fa-bars"></i>
                 </span>
                 <ul class="main-nav" id="js-menu">
-                    <li><a href="#about" class="nav-links" id="js-about">About</a></li>
-                    <li><a href="#resume" class="nav-links" id="js-resume">Resume</a></li>
-                    <li><a href="#contact" class="nav-links" id="js-contact">Contact</a></li>
+                    <li><a href="#about" class="nav-links close-navbar">About</a></li>
+                    <li><a href="#resume" class="nav-links close-navbar">Resume</a></li>
+                    <li><a href="#contact" class="nav-links close-navbar">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     
-    <div class="main">
+    <div class="main" id="main">
         <h1 class="headline">
             Hi, <span class="underline">I'm Baykam.</span> A CS student at Bilkent University and an aspiring web developer.
         </h1>

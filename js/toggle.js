@@ -1,21 +1,16 @@
-let mainNav = document.getElementById('js-menu');
-let navBarToggle = document.getElementById('js-navbar-toggle');
-let about = document.getElementById('js-about');
-let resume = document.getElementById('js-resume');
-let contact = document.getElementById('js-contact');
-let name = document.getElementById('name');
+const mainNav = document.getElementById('js-menu');
+const navBarToggle = document.getElementById('js-navbar-toggle');
+
+const elements = document.querySelectorAll('.close-navbar');
 
 function close() {
-    if (mainNav.classList.contains('active')) {
-        mainNav.classList.toggle('active');
-    }
+    mainNav.classList.remove('active');
 }
 
 navBarToggle.addEventListener('click', function() {
     mainNav.classList.toggle('active');
 });
 
-about.addEventListener('click', close);
-resume.addEventListener('click', close);
-contact.addEventListener('click', close);
-name.addEventListener('click', close);
+for (let i = 0; i < elements.length; i++) {
+    elements[i].addEventListener('click', close);
+}
