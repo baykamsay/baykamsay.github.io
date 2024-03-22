@@ -3,115 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baykam Say</title>
-    <meta name="description" content="Hi, I'm Baykam. A CS student at Bilkent University and an aspiring web developer.">
-    <meta name="keywords" content="baykam,say,cv,resume,computer,science,engineering,programming,bilkent,student,blog">
+    <title>Baykam's Blog 💭</title>
+    <meta name="description" content="Baykam Say's blog.">
+    <meta name="keywords" content="baykam,say,computer,science,engineering,programming,bilkent,tum,student,blog,ai,ml">
     <meta name="author" content="Baykam Say">
     <!-- favicon -->
     <link rel='icon' href='favicon.ico' type='image/x-icon'/>
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Pro|Open+Sans&display=swap">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/e1d624bd6f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div class="wrapper">
-            <nav class="navbar">
-                <a href="#main" class="name close-navbar" id="name">Baykam Say</a>
-                <span class="navbar-toggle" id="js-navbar-toggle">
-                    <i class="fas fa-bars"></i>
-                </span>
-                <ul class="main-nav" id="js-menu">
-                    <li><a href="#about" class="nav-links close-navbar">About</a></li>
-                    <li><a href="#projects" class="nav-links close-navbar">Projects</a></li>
-                    <li><a href="#resume" class="nav-links close-navbar">Resume</a></li>
-                    <li><a href="#contact" class="nav-links close-navbar">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar">
+            <a href="/" class="home-link">baykam.me</a>
+            <a
+              href="https://github.com/baykamsay"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/baykam-say/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://forms.gle/miF2GVCMQvbk76ST7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact
+            </a>
+        </nav>
     </header>
-    
-    <div class="main" id="main">
-        <h1 class="headline">
-            Hi, <span class="underline">I'm Baykam.</span> A CS student at Bilkent University and an aspiring web developer.
-        </h1>
-    </div>
-    
-    <div class="wrapper">
-        <article class="clear section" id="about">
-            <img class="float-left portrait" src="images/baykam-portait.jpg" alt="My portrait">
-            <div class="text">
-                <h2 class="about-me">About Me</h2>
-                <p>
-                    I'm a computer engineering student at Bilkent University and a board member at Bilkent Young Entrepreneurs Society.  I'm experienced in Java and C++ but I also love learning new concepts. The new concept that I am learning right now  is web programming. I am starting to get comfortable with HTML and CSS but I still have a long way to go, especially with JavaScript. I like to work on small projects in my free time.
-                </p>
-            </div>
-        </article>
-
-        <div class="section" id="projects">
-            <h2>Projects</h2>
-            <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide clear">
-                        <img class="float-left project-logo" src="images/droneer-logo.png" alt="Droneer Logo">
-                        <div>
-                            <h3>Droneer</h3>
-                            <p>
-                                Game to teach students programming by writing code for drones to complete objectives through space. It aims to provide a more fun and engaging alternative to conventional ways of learning programming. The game has two core parts. It has an IDE part where the players can write the code for their drone in Java and a in game part where the player's drone executes the code. I was the lead developer in a team of 6 and wrote the core functionalities of the drones, along with most of the in game part. Written in Java, HTML, and CSS. 
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide clear">
-                        <img class="float-left project-logo" src="images/spacex-logo.jpg" alt="Droneer Logo">
-                        <div>
-                            <h3>SpaceX Launches</h3>
-                            <p>
-                                Single page application to monitor the last and the next rocket launch from SpaceX. It uses the SpaceX API: <a target="_blank" href="https://github.com/r-spacex/SpaceX-API">https://github.com/r-spacex/SpaceX-API</a> and shows the countdown to the next rocket launch and the time of the last rocket launch depending on the choice of the user. Written in HTML, CSS, and JavaScript.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide clear">
-                        <img class="float-left project-logo" src="images/calculator-logo.jpg" alt="Droneer Logo">
-                        <div>
-                            <h3>Caculator</h3>
-                            <p>
-                                A simple calculator written in JavaScript that can do addition, subtraction, multiplication, and division. It can also clear the screen and delete one digit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- pagination -->
-                <div class="swiper-pagination"></div>
-            
-                <!-- buttons -->
-                <!-- <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div> -->
-            </div>
-        </div>
-        <div class="section" id="resume">
-            <h2 class="resume">You can download my resume <br> <a href="/baykam-say-resume.pdf" download>here.</a></h2>
+    <main>
+        <div class="intro">
+            <h1>👋 Hello, I'm Baykam</h1>
+            <p>
+                I'm a computer science student at
+                <a
+                href="https://www.tum.de/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline"
+                >
+                Technical University of Munich
+                </a>. I'll be sharing my rablings on whatever I find interesting here.
+            </p>
         </div>
         
-        <div class="section" id="contact">
-            <h2 class="contact">Contact</h2>
-            <p>baykam.say [at] gmail.com</p>
+        <div class="blog">
+            <h1>Posts</h1>
+            <p>
+                I haven't found anything interesting yet. <br>
+                <br>
+                <br>
+                <br>
+                Sorry...
+            </p>
         </div>
-        
-        <footer>
-            <p>Copyright &copy; 2020 - Baykam Say</p>
-        </footer>
-    </div>
-    
-    <!-- JavaScript -->
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <script src="js/gallery.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="js/toggle.js"></script>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2024 - Baykam Say</p>
+    </footer>
 </body>
 </html>
